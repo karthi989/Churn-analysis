@@ -1,0 +1,31 @@
+final Streamlit app should work like this:
+
+Upload CSV
+    ↓
+Read customer data
+    ↓
+Prepare the 19 model features
+    ↓
+churn_pipeline.pkl
+    ↓
+Predict Churn
+    ↓
+Calculate Churn Probability
+    ↓
+Add Risk Level
+    ↓
+Display results
+    ↓
+Download predictions CSV
+
+#What the final app will provide
+
+#For example, if you upload 100 customers:
+
+Customer	Churn Prediction	Churn Probability	Risk
+Customer 1	No	18.42%	Low
+Customer 2	Yes	82.15%	High
+Customer 3	No	34.67%	Low
+Customer 4	Yes	71.20%	High
+
+And l have a Download Predictions CSV button.
